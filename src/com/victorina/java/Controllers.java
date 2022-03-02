@@ -8,9 +8,6 @@ public class Controllers {
      int countPlusAnswers = 0;
      int allQuestions = 10;
 
-
-
-
     GetConnectionDB getConn = new GetConnectionDB();
 
     void sayGreetings() {
@@ -43,6 +40,11 @@ public class Controllers {
         }
 
     }
+
+
+
+
+
 
     void allQuestions() {
         Scanner sc = new Scanner(System.in);
